@@ -1,0 +1,32 @@
+<!-- chrome-extension/src/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduCraft Copilot</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+    <h2>Create a New Course</h2>
+    <form id="courseForm">
+        <label>Title:</label><br/>
+        <input type="text" id="title" required/><br/><br/>
+        <label>Description:</label><br/>
+        <textarea id="description" required></textarea><br/><br/>
+        <label>Language:</label><br/>
+        <select id="language">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Bengali">Bengali</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Marathi">Marathi</option>
+            <!-- Add more languages -->
+        </select><br/><br/>
+        <button type="submit">Create Course</button>
+    </form>
+    <script src="popup.js"></script>
+</body>
+</html>

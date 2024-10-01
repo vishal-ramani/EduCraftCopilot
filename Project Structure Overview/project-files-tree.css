@@ -1,0 +1,38 @@
+EduCraft-Copilot/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   ├── app.js
+│   └── config.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+├── mobile/
+│   ├── android/
+│   ├── ios/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── screens/
+│   │   ├── services/
+│   │   └── App.js
+│   └── package.json
+├── chrome-extension/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── background.js
+│   │   ├── content.js
+│   │   └── manifest.json
+│   └── package.json
+├── scripts/
+├── .gitignore
+├── README.md
+└── package.json
